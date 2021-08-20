@@ -1,0 +1,13 @@
+p {
+    font-family: 'Just Me Again Down Here', cursive;
+    color: red;
+};
+ .nav-item {
+     color: red;
+ }
+
+ @font-face {
+    font-family: 'Just Me Again Down Here', cursive;
+    src: url(840f6f068d51fb78e762.ttf);
+};
+
