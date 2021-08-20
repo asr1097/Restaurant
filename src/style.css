@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here&display=swap');
+
+html, body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    z-index: -1;
+    text-align: center;
+}
+
+.navDiv {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(216, 216, 216);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: inherit;
+    height: inherit;
+}
+
+a {
+    font-family: 'Just Me Again Down Here';
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-left: 1px solid;
+    transition: all 0.5s;
+}
+
+a:hover {
+    transform: scale(1.1);
+}
+
+#mainDiv {
+    font-size: 40px;
+}
+
+p {
+    font-family: 'Just Me Again Down Here', cursive;
+}
+
+.font1 {
+    font-family: 'Merienda', cursive;
+    color: red;
+    font-size: 60px;
+}
+
+.smTitle {
+    margin: 0;
+    position: relative;
+    top: 50px;
+    font-family: 'Merienda', cursive;
+}
+
+hr {
+    width: 75%;
+    height: 1px;
+    color: black;
+    background-color: black;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+#menuDiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 500px;
+    background-color: gray;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
+.menuElement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.menuElement:hover {
+    transform: scale(1.1);
+}
+
+.menuText {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.itName {
+    font-size: 26px;
+}
+
+.c {
+    margin: 20px;
+    font-weight: bolder;
+}
+
+span {
+    float: left;
+    margin-top: 5px;
+}
+
+.adrSpan {
+    margin-top: 3px;
+}
+
+.spanImg {
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+}
+
+.contactDiv {
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+}
